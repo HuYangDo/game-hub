@@ -1,5 +1,7 @@
+import { useQuery } from 'react-query';
 import axios from "axios";
 
  export default axios.create({
     baseURL: 'https://api.rawg.io/api',
-    params: {key: 'acaef31a18aa4bf2aa9d3547718c4bc7'}})
+    params: {key: '8de70ebbabc54d559fa6381b1c57f134'}})
+    
